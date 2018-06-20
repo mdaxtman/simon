@@ -1,0 +1,24 @@
+.tile {
+  height: 150px;
+  width: 150px;
+  flex: none;
+  box-sizing: border-box
+}
+
+.highlighted {
+  border: 5px solid fuchsia;
+}
+
+.tile:active {
+  border: 5px solid fuchsia;
+}
+
+.board {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
